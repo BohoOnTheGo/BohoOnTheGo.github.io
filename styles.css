@@ -1,23 +1,46 @@
-body {
+.background {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    font-family: Arial, sans-serif;
+    height: 100vh;
+    text-align: center;
 }
+h1{
+    color: #9cc989;
+}
+
 
 header {
     text-align: center;
     margin-top: 20px;
 }
 
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.title-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.buttons{
+    text-align: center;
+}
+
 button {
-    background-color: lightgreen;
+    background-color: #9cc989;
     border: none;
     color: white;
     padding: 10px 20px;
-    text-align: center;
+    width: 250px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -26,7 +49,7 @@ button {
     border-radius: 5px;
 }
 
-.grid-container {
+.image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
@@ -34,10 +57,3 @@ button {
     margin-top: 20px;
 }
 
-.grid-item {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
