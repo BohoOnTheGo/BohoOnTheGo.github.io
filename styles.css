@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Marck+Script&display=swap');
 
 .background {
     display: flex;
@@ -12,7 +11,7 @@
 h1{
     color: #9cc989;
     font-size: large;
-    font-family: "Pacifico", serif;
+    font-family: "Courgette", serif;
     font-weight: 10;
 }
 
@@ -49,10 +48,10 @@ button {
     width: 250px;
     text-decoration: none;
     display: inline-block;
-    font-family: "Pacifico", serif;
+    font-family: "Courgette", serif;
     font-size: 16px;
     font-weight:10; /* Reduced font weight */
-    margin: 10px 5px;
+    margin: 5px;
     cursor: pointer;
     border-radius: 5px;
 }
