@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Marck+Script&display=swap');
 
-.background {
+body {
+    font-family: 'Marck Script', cursive;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +14,8 @@
 h1{
     color: #AFCBA0;
     font-size: large;
-    font-family: "Courgette", serif;
-    font-weight: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .title-image {
@@ -42,6 +45,7 @@ button {
 }
 
 .image-grid {
+    font-family: serif;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
