@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .background {
@@ -13,6 +13,7 @@ h1{
     color: #9cc989;
     font-size: large;
     font-family: "Pacifico", serif;
+    font-weight: 10;
 }
 
 
