@@ -10,7 +10,14 @@ body {
     justify-content: center;
     height: 100vh;
     text-align: center;
-    background-image: url('GlassVase.jpg'), linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 0));
+    background-origin: border-box;
+    background-image: url('GlassVase.jpg'), linear-gradient(
+        to right, 
+        rgba(255, 255, 255, 0), 
+        rgba(255, 255, 255, 1) 40px, 
+        rgba(255, 255, 255, 1) 60px, 
+        rgba(255, 255, 255, 0)
+    );
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
