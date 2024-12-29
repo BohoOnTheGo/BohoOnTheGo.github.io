@@ -10,26 +10,16 @@ body {
     justify-content: center;
     height: 100vh;
     text-align: center;
-    background-image: url('GlassVase.jpg'), linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 0));
+    background-image: url('GlassVase.jpg'), linear-gradient(
+        from center,
+        rgba(255, 255, 255, 1) 50px,
+        rgba(255, 255, 255, 0));
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: overlay;
     background-position: center;
     position: relative;
-}
-
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width: 150px;
-    height: 100%;
-    background: rgba(255, 255, 255, 1);
-    z-index: 1;
 }
     
 h1{
