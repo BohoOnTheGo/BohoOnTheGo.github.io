@@ -11,12 +11,13 @@ body {
     height: 100vh;
     text-align: center;
     background-origin: border-box;
-    background-image: url('GlassVase.jpg'), linear-gradient(
+    background-image: url('GlassVase.jpg'), 
+    linear-gradient(
         to right, 
-        rgba(255, 255, 255, 0), 
-        rgba(255, 255, 255, 1) 40px, 
-        rgba(255, 255, 255, 1) 60px, 
-        rgba(255, 255, 255, 0)
+        rgba(255, 255, 255, 0)0%,  
+        rgba(255, 255, 255, 1) calc(50% - 85px),
+        rgba(255, 255, 255, 1) calc(50% + 85px),
+        rgba(255, 255, 255, 0) 100%
     );
     background-size: cover;
     background-repeat: no-repeat;
