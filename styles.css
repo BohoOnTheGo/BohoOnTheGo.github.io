@@ -11,7 +11,7 @@ body {
     height: 100vh;
     text-align: center;
     background-image: url('GlassVase.jpg'), linear-gradient(
-        from center to right,
+        to right,
         rgba(255, 255, 255, 1) 75px,
         rgba(255, 255, 255, 0));
     background-size: cover;
