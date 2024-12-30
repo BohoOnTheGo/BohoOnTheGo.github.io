@@ -2,6 +2,12 @@ icon {
     border-radius: 50%;
 }
 
+.title-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -49,12 +55,6 @@ body {
     
 }
 
-.title-image {
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
-}
-
 .buttons {
     text-align: center;
 }
@@ -75,13 +75,3 @@ button {
 button:hover{
     background-color: #94b781;
 }
-
-.image-grid {
-    font-family: serif;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-    width: 90%;
-    margin-top: 20px;
-}
-
