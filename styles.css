@@ -12,7 +12,7 @@ body {
     background-image: url('./Images/GlassVase.jpg'), 
     linear-gradient(
         to right, 
-        rgba(255, 255, 255, 0)calc(50% - 300px),  
+        rgba(255, 255, 255, 0) calc(50% - 300px),  
         rgba(255, 255, 255, 1) calc(50% - 125px),
         rgba(255, 255, 255, 1) calc(50% + 125px),
         rgba(255, 255, 255, 0) calc(50% + 300px)
@@ -22,7 +22,18 @@ body {
     background-attachment: fixed;
     background-blend-mode: overlay;
     background-position: center;
-    
+}
+@media (max-width: 600px) {
+    body {
+        background-image: url('./Images/GlassVaseMobile.jpg'), 
+        linear-gradient(
+            to right, 
+            rgba(255, 255, 255, 0) calc(50% - 185px),  
+            rgba(255, 255, 255, 1) calc(50% - 115px),
+            rgba(255, 255, 255, 1) calc(50% + 115px),
+            rgba(255, 255, 255, 0) calc(50% + 185px)
+        );
+    }
 }
 
 .subtitle{
